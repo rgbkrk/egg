@@ -19,7 +19,7 @@ This package isn't meant to be installed, but is instead meant to be friendly na
   $ pip install egg
   Downloading/unpacking egg
     Downloading egg-0.1.0.tar.gz
-    Running setup.py (path:/private/var/folders/ps/1dvr90bd6p3blnyrnpyxnryhv45qg1/T/pip_build_kyle6475/egg/setup.py) egg_info for package egg
+    Running setup.py (path:/tmp/egg/setup.py) egg_info for package egg
       ****************************************
       You probably installed this package on accident.
       Perhaps your pip syntax is incorrect
