@@ -9,7 +9,7 @@ egg
         :target: https://travis-ci.org/rgbkrk/egg
 
 .. image:: https://pypip.in/d/egg/badge.png
-        :target: https://crate.io/packages/egg?version=latest
+        :target: https://pypi.python.org/pypi/egg
 
 
 This package isn't meant to be installed, but is instead meant to be friendly name squatting against pip typos (especially misconfigured installs of packages from git). Upon installing this package, you should see the warning message:
