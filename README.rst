@@ -15,6 +15,7 @@ egg
 This package isn't meant to be installed, but is instead meant to be friendly name squatting against pip typos (especially misconfigured installs of packages from git). Upon installing this package, you should see the warning message:
 
 .. code-block:: bash
+
   $ pip install egg
   Downloading/unpacking egg
     Downloading egg-0.1.0.tar.gz
