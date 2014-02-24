@@ -18,13 +18,12 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 print("*"*40)
-print("You probably installed this package on accident.")
-print("Perhaps your pip syntax is incorrect")
+print("What comes first, the chicken or the egg?")
 print("*"*40)
 
 setup(
     name='egg',
-    version='0.1.0',
+    version='0.2.0',
     description='This is a lonely egg.',
     long_description=readme + '\n\n' + history,
     author='Kyle Kelley',
@@ -36,6 +35,7 @@ setup(
     package_dir={'egg': 'egg'},
     include_package_data=True,
     install_requires=[
+        'chicken'
     ],
     license="Apache 2",
     zip_safe=False,
@@ -53,3 +53,8 @@ setup(
     ],
     test_suite='tests',
 )
+
+print("*"*40)
+print("On a side note, your pip syntax is probably incorrect.")
+print("Are you trying to install over version control?")
+print("*"*40)
